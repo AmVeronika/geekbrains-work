@@ -1,0 +1,37 @@
+// New arrivals
+.arrivals {
+   background-color: #f8f3f4;
+   padding: 60px 0;
+   &__wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+   &__h3 {
+      @include fontstyle(regular, h3, upper);
+      color: $bittersweet;
+   }
+   &__breadcrumbs {
+      display: flex;
+   }
+   &-breadcrumbs {
+      &__link {
+         @include fontstyle(regular, text, cap);
+         color: #636363;
+         text-decoration: none;
+      }
+      &__list {
+         &::after {
+            content: "/";
+            margin: 0 5px;
+         }
+         &:last-of-type::after{
+            content: "";
+            margin: 0;
+         }
+      }
+   }
+   .active_bc {
+      color: $bittersweet;
+   }
+}
