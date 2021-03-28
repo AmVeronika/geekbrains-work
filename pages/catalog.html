@@ -46,7 +46,7 @@
                </svg>
             </a>
             <!-- cart  -->
-            <a class="header-right__cart" href="pages/cart.html">
+            <a class="header-right__cart" href="cart.html">
                <svg class="header-right-cart__img" width="32" height="29" viewBox="0 0 32 29" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -63,9 +63,12 @@
       <div class="arrivals__wrap container">
          <h3 class="arrivals__h3">NEW ARRIVALS </h3>
          <ul class="arrivals__breadcrumbs">
-            <li class="arrivals-breadcrumbs__list"><a class="arrivals-breadcrumbs__link" href="../index.html">Home</a></li>
-            <li class="arrivals-breadcrumbs__list"><a class="arrivals-breadcrumbs__link" href="catalog.html">Men</a></li>
-            <li class="arrivals-breadcrumbs__list"><a class="arrivals-breadcrumbs__link active_bc" href="#">New Arrivals</a></li>
+            <li class="arrivals-breadcrumbs__list"><a class="arrivals-breadcrumbs__link" href="../index.html">Home</a>
+            </li>
+            <li class="arrivals-breadcrumbs__list"><a class="arrivals-breadcrumbs__link" href="catalog.html">Men</a>
+            </li>
+            <li class="arrivals-breadcrumbs__list"><a class="arrivals-breadcrumbs__link active__bc" href="#">New
+                  Arrivals</a></li>
          </ul>
       </div>
    </aside>
@@ -73,13 +76,114 @@
    <!-- Product  -->
    <section class="product">
       <div class="container product__wrap">
-         <!-- Filter -->
+         <!-- Sidebar -->
+         <aside class="product__sidebar">
+            <!-- Filter  -->
+            <div class="product__filter">
+               <a class="product-filter__link" href="#">FILTER
+                  <svg class="product-filter__link-svg" width="15" height="10" viewBox="0 0 15 10" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <path
+                        d="M0.833333 10H4.16667C4.625 10 5 9.625 5 9.16667C5 8.70833 4.625 8.33333 4.16667 8.33333H0.833333C0.375 8.33333 0 8.70833 0 9.16667C0 9.625 0.375 10 0.833333 10ZM0 0.833333C0 1.29167 0.375 1.66667 0.833333 1.66667H14.1667C14.625 1.66667 15 1.29167 15 0.833333C15 0.375 14.625 0 14.1667 0H0.833333C0.375 0 0 0.375 0 0.833333ZM0.833333 5.83333H9.16667C9.625 5.83333 10 5.45833 10 5C10 4.54167 9.625 4.16667 9.16667 4.16667H0.833333C0.375 4.16667 0 4.54167 0 5C0 5.45833 0.375 5.83333 0.833333 5.83333Z"
+                        fill="black" />
+                  </svg>
+               </a>
+               <div class="product__details">
+                  <details class="product-filter__details">
+                     <summary class="product-details__summary">CATEGORY</summary>
+                     <ul class="product-details__list">
+                        <li><a class="product-list__link" href="#">Accessories</a></li>
+                        <li><a class="product-list__link" href="#">Bags</a></li>
+                        <li><a class="product-list__link" href="#">Denim</a></li>
+                        <li><a class="product-list__link" href="#">Hoodies & Sweatshirts</a></li>
+                        <li><a class="product-list__link" href="#">Jackets & Coats</a></li>
+                        <li><a class="product-list__link" href="#">Pants</a></li>
+                        <li><a class="product-list__link" href="#">Polos</a></li>
+                        <li><a class="product-list__link" href="#">Shirts</a></li>
+                        <li><a class="product-list__link" href="#">Shoes</a></li>
+                        <li><a class="product-list__link" href="#">Shorts</a></li>
+                        <li><a class="product-list__link" href="#">Sweaters & Knits</a></li>
+                        <li><a class="product-list__link" href="#">T-Shirts</a></li>
+                        <li><a class="product-list__link" href="#">Tanks</a></li>
+                     </ul>
+                  </details>
+                  <details class="product-filter__details">
+                     <summary class="product-details__summary">BRAND</summary>
+                     <ul class="product-details__list">
+                        <li><a class="product-list__link" href="#">Accessories</a></li>
+                        <li><a class="product-list__link" href="#">Bags</a></li>
+                        <li><a class="product-list__link" href="#">Denim</a></li>
+                        <li><a class="product-list__link" href="#">Hoodies & Sweatshirts</a></li>
+                        <li><a class="product-list__link" href="#">Jackets & Coats</a></li>
+                        <li><a class="product-list__link" href="#">Pants</a></li>
+                        <li><a class="product-list__link" href="#">Polos</a></li>
+                        <li><a class="product-list__link" href="#">Shirts</a></li>
+                        <li><a class="product-list__link" href="#">Shoes</a></li>
+                        <li><a class="product-list__link" href="#">Shorts</a></li>
+                        <li><a class="product-list__link" href="#">Sweaters & Knits</a></li>
+                        <li><a class="product-list__link" href="#">T-Shirts</a></li>
+                        <li><a class="product-list__link" href="#">Tanks</a></li>
+                     </ul>
+                  </details>
+                  <details class="product-filter__details">
+                     <summary class="product-details__summary">DESIGNER</summary>
+                     <ul class="product-details__list">
+                        <li><a class="product-list__link" href="#">Accessories</a></li>
+                        <li><a class="product-list__link" href="#">Bags</a></li>
+                        <li><a class="product-list__link" href="#">Denim</a></li>
+                        <li><a class="product-list__link" href="#">Hoodies & Sweatshirts</a></li>
+                        <li><a class="product-list__link" href="#">Jackets & Coats</a></li>
+                        <li><a class="product-list__link" href="#">Pants</a></li>
+                        <li><a class="product-list__link" href="#">Polos</a></li>
+                        <li><a class="product-list__link" href="#">Shirts</a></li>
+                        <li><a class="product-list__link" href="#">Shoes</a></li>
+                        <li><a class="product-list__link" href="#">Shorts</a></li>
+                        <li><a class="product-list__link" href="#">Sweaters & Knits</a></li>
+                        <li><a class="product-list__link" href="#">T-Shirts</a></li>
+                        <li><a class="product-list__link" href="#">Tanks</a></li>
+                     </ul>
+                  </details>
+               </div>
+
+            </div>
+            <!-- Options -->
+            <div class="product__options">
+               <details class="product-options__details">
+                  <summary class="product-options__summary">TRENDING NOW</summary>
+                  <form class="product-options__form" action="#" method="get">
+                     <label class="product-form__label" for="trend"><input class="product-form__label-input"
+                           type="checkbox" value="trend" id="trend">TREND</label>
+                  </form>
+               </details>
+               <details class="product-options__details">
+                  <summary class="product-options__summary">SIZE</summary>
+                  <form class="product-options__form" action="#" method="get">
+                     <label class="product-form__label" for="xs"><input class="product-form__label-input"
+                           type="checkbox" value="xs" id="xs">XS</label>
+                     <label class="product-form__label" for="s"><input class="product-form__label-input" type="checkbox"
+                           value="s" id="s">S</label>
+                     <label class="product-form__label" for="m"><input class="product-form__label-input" type="checkbox"
+                           value="m" id="m">M</label>
+                     <label class="product-form__label" for="l"><input class="product-form__label-input" type="checkbox"
+                           value="l" id="l">L</label>
+                  </form>
+               </details>
+               <details class="product-options__details">
+                  <summary class="product-options__summary">PRICE</summary>
+                  <form class="product-options__form" action="#" method="get">
+                     <label class="product-form__label" for="price"><input class="product-form__label-input"
+                           type="checkbox" name="price" id="trend">TREND</label>
+                  </form>
+               </details>
+            </div>
+
+         </aside> <!-- Sidebar end -->
 
          <div class="product__grid-wrap">
             <!-- Card-1  -->
             <div class="product__card">
                <img src="../assets/img/catalog/product-card1.jpg" alt="product card" class="product-card__img">
-               <a href="#" class="product-card__name" target="_blank">
+               <a href="product.html" class="product-card__name" target="_blank">
                   <h5 class="product-card__h5">ELLERY X M'O CAPSULE</h5>
                   <p class="product-card__text">Known for her sculptural takes on traditional tailoring, Australian
                      arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
@@ -89,7 +193,7 @@
             <!-- Card-2  -->
             <div class="product__card">
                <img src="../assets/img/catalog/product-card2.jpg" alt="product card" class="product-card__img">
-               <a href="" class="product-card__name" target="_blank">
+               <a href="product.html" class="product-card__name" target="_blank">
                   <h5 class="product-card__h5">ELLERY X M'O CAPSULE</h5>
                   <p class="product-card__text">Known for her sculptural takes on traditional tailoring, Australian
                      arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
@@ -99,7 +203,7 @@
             <!-- Card-3  -->
             <div class="product__card">
                <img src="../assets/img/catalog/product-card3.jpg" alt="product card" class="product-card__img">
-               <a href="#" class="product-card__name" target="_blank">
+               <a href="product.html" class="product-card__name" target="_blank">
                   <h5 class="product-card__h5">ELLERY X M'O CAPSULE</h5>
                   <p class="product-card__text">Known for her sculptural takes on traditional tailoring, Australian
                      arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
@@ -109,7 +213,7 @@
             <!-- Card-4  -->
             <div class="product__card">
                <img src="../assets/img/catalog/product-card4.jpg" alt="product card" class="product-card__img">
-               <a href="" class="product-card__name" target="_blank">
+               <a href="product.html" class="product-card__name" target="_blank">
                   <h5 class="product-card__h5">ELLERY X M'O CAPSULE</h5>
                   <p class="product-card__text">Known for her sculptural takes on traditional tailoring, Australian
                      arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
@@ -119,7 +223,7 @@
             <!-- Card-5  -->
             <div class="product__card">
                <img src="../assets/img/catalog/product-card5.jpg" alt="product card" class="product-card__img">
-               <a href="#" class="product-card__name" target="_blank">
+               <a href="product.html" class="product-card__name" target="_blank">
                   <h5 class="product-card__h5">ELLERY X M'O CAPSULE</h5>
                   <p class="product-card__text">Known for her sculptural takes on traditional tailoring, Australian
                      arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
@@ -129,7 +233,37 @@
             <!-- Card-6  -->
             <div class="product__card">
                <img src="../assets/img/catalog/product-card6.jpg" alt="product card" class="product-card__img">
-               <a href="#" class="product-card__name" target="_blank">
+               <a href="product.html" class="product-card__name" target="_blank">
+                  <h5 class="product-card__h5">ELLERY X M'O CAPSULE</h5>
+                  <p class="product-card__text">Known for her sculptural takes on traditional tailoring, Australian
+                     arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                  <p class="product-card__text-options">$52.00</p>
+               </a>
+            </div>
+            <!-- Card-7  -->
+            <div class="product__card">
+               <img src="../assets/img/catalog/product-card7.jpg" alt="product card" class="product-card__img">
+               <a href="product.html" class="product-card__name" target="_blank">
+                  <h5 class="product-card__h5">ELLERY X M'O CAPSULE</h5>
+                  <p class="product-card__text">Known for her sculptural takes on traditional tailoring, Australian
+                     arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                  <p class="product-card__text-options">$52.00</p>
+               </a>
+            </div>
+            <!-- Card-8  -->
+            <div class="product__card">
+               <img src="../assets/img/catalog/product-card8.jpg" alt="product card" class="product-card__img">
+               <a href="product.html" class="product-card__name" target="_blank">
+                  <h5 class="product-card__h5">ELLERY X M'O CAPSULE</h5>
+                  <p class="product-card__text">Known for her sculptural takes on traditional tailoring, Australian
+                     arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                  <p class="product-card__text-options">$52.00</p>
+               </a>
+            </div>
+            <!-- Card-9  -->
+            <div class="product__card">
+               <img src="../assets/img/catalog/product-card9.jpg" alt="product card" class="product-card__img">
+               <a href="product.html" class="product-card__name" target="_blank">
                   <h5 class="product-card__h5">ELLERY X M'O CAPSULE</h5>
                   <p class="product-card__text">Known for her sculptural takes on traditional tailoring, Australian
                      arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
@@ -137,6 +271,21 @@
                </a>
             </div>
          </div>
+         <!-- Pagination  -->
+         <ul class="product-pagination__list">
+            <li class="product-list"><a class="product-list__link" href="#"><i class="fas fa-chevron-left"></i></a>
+            </li>
+            <li class="product-list"><a class="product-list__link product__current" href="#">1</a></li>
+            <li class="product-list"><a class="product-list__link" href="#">2</a></li>
+            <li class="product-list"><a class="product-list__link" href="#">3</a></li>
+            <li class="product-list"><a class="product-list__link" href="#">4</a></li>
+            <li class="product-list"><a class="product-list__link" href="#">5</a></li>
+            <li class="product-list"><a class="product-list__link" href="#">6</a></li>
+            <li class="product-list"><a class="product-list__link" href="#">...</a></li>
+            <li class="product-list"><a class="product-list__link" href="#">20</a></li>
+            <li class="product-list"><a class="product-list__link" href="#"><i class="fas fa-chevron-right"></i></a>
+            </li>
+         </ul>
       </div>
    </section>
 
