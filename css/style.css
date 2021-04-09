@@ -541,6 +541,10 @@ body {
           align-items: center;
 }
 
+.feature__item__svg {
+  position: relative;
+}
+
 .feature-item__h4 {
   font-weight: 700;
   text-transform: none;

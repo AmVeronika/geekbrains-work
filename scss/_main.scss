@@ -191,6 +191,9 @@
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
+      &__svg {
+         position: relative;
+      }
    }
    &-item__h4 {
       @include fontstyle(semibold, 0, none);
