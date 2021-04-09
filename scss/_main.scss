@@ -191,10 +191,11 @@
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
-      &__svg {
-         position: relative;
-         display: block;
-      }
+      
+   }
+   .feature-item__svg {
+      position: relative;
+      display: block;
    }
    &-item__h4 {
       @include fontstyle(semibold, 0, none);

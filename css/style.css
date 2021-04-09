@@ -541,7 +541,7 @@ body {
           align-items: center;
 }
 
-.feature__item__svg {
+.feature .feature-item__svg, .footer .feature-item__svg {
   position: relative;
   display: block;
 }
