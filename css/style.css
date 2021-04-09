@@ -543,6 +543,7 @@ body {
 
 .feature__item__svg {
   position: relative;
+  display: block;
 }
 
 .feature-item__h4 {

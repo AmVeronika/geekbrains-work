@@ -193,6 +193,7 @@
       align-items: center;
       &__svg {
          position: relative;
+         display: block;
       }
    }
    &-item__h4 {
