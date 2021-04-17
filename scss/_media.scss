@@ -91,20 +91,21 @@
    .shadow:hover {
       box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.3);
    }
-   .filter-card:hover {
-      .product-card__img {
-         filter: brightness(0.4);
-      }
-      .card-hover {
-         opacity: 1;
-      }
-   }
    // Hover for checkbox
    .checkbox-hover:hover {
       color: $bittersweet;
    }
    .scale:hover {
       transform: scale(1.2);
+   }
+}
+// Hover for card
+.filter-card:hover {
+   .product-card__img {
+      filter: brightness(0.4);
+   }
+   .card-hover {
+      opacity: 1;
    }
 }
 
@@ -308,7 +309,6 @@
          max-width: 360px;
          margin-top: 48px;
       }
-      
    }
 }
 
@@ -575,14 +575,12 @@
             margin-top: 13px;
          }
          &-svg {
-           @media (max-width: $level_6) {
-            width: 10px;
-            height: 10px;
-         } 
+            @media (max-width: $level_6) {
+               width: 10px;
+               height: 10px;
+            }
          }
       }
-
-
 
       // Buttons cart
       &__button {

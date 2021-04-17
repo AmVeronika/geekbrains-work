@@ -541,11 +541,6 @@ body {
           align-items: center;
 }
 
-.feature .feature-item__svg, .footer .feature-item__svg {
-  position: relative;
-  display: block;
-}
-
 .feature-item__h4 {
   font-weight: 700;
   text-transform: none;
@@ -1772,13 +1767,6 @@ body {
     -webkit-box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.3);
             box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.3);
   }
-  .filter-card:hover .product-card__img {
-    -webkit-filter: brightness(0.4);
-            filter: brightness(0.4);
-  }
-  .filter-card:hover .card-hover {
-    opacity: 1;
-  }
   .checkbox-hover:hover {
     color: #f16d7f;
   }
@@ -1786,6 +1774,15 @@ body {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
   }
+}
+
+.filter-card:hover .product-card__img {
+  -webkit-filter: brightness(0.4);
+          filter: brightness(0.4);
+}
+
+.filter-card:hover .card-hover {
+  opacity: 1;
 }
 
 @media all and (max-width: 600px) {
